@@ -423,19 +423,3 @@ public class XControl<T>
     }
 }
 
-[System.Serializable]
-public class MHXDatum<T, R>
-{
-    public T ID;
-    public R Value;
-}
-
-[System.Serializable]
-public class MHXFlagColor : MHXDatum<MHXTileFlags, Color> { }
-
-[System.Serializable]
-public class MHXDT<T, R>
-{
-    public List<MHXDatum<T,R>> Data;
-    
-}
